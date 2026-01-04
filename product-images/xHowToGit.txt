@@ -1,0 +1,6 @@
+Open in terminal (the assets folder)
+
+
+git add -A   
+git commit -m "backup 19-Dec-25"
+git push -u origin main
