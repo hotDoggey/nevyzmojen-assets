@@ -14,7 +14,8 @@ if you replace a file with a same name one. your push wont upload an update. hav
 // Clear the index
 git rm --cached path/to/your/image1.png
 git add -A
-git commit -m "Force update high-res assets"git push -u origin main
+git commit -m "Force update high-res assets"
+git push -u origin main
 
 If you have made a lot of changes you can delete the indexes of all files in a path with:
 git rm -r --cached path/to/folder/
